@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  text-align: left;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+#logo {
+  width: 15%;
+}
+
+.intro {
+  color: rgb(9, 105, 118);
+  border-top: 1px solid rgb(204, 101, 22);
+  background-color: rgb(241, 213, 129);
+  padding: 12px;
+}
+
+.featured {
+  border-left: 1px solid rgb(236, 210, 11);
+  padding-left: 20px;
+}
+
+main {
+  width: 45%;
+}
+
+#focaccia {
+  width: 100%;
+  height: 450px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.linea {
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid rgb(165, 221, 228);
+}
+
+li {
+  margin-bottom: 10px;
+}
