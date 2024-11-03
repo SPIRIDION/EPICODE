@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E9EDED;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+}
+
+#logo-container {
+  width: 100%;
+  height: 65%;
+  background-color: #222F3E;
+  padding-left: 20px;
+}
+
+#logo {
+  width: 10%;
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  height: 30%;
+  background-color: #364658;
+  display: flex;
+  text-align: left;
+  color: white;
+  align-items: center;
+}
+
+.paragrafo-nav {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+main {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#sezione-gift-cards {
+  background-color: #F56600;
+  padding: 8px 0 8px 0;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  margin: 16px 0 20px 0;
+}
+
+#container-holiday-gift {
+  width: 100%;
+  height: 150px;
+  background-image: url(Assets/bg-image.png);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#testo-holiday-gift-grosso {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 16px;
+}
+
+#testo-holiday-gift-piccolo {
+  font-weight: bold;
+}
+
+#carosello-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px 0 20px 0;
+}
+
+.didascalia,
+.didascalia-immagine {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+#carosello-immagini {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.immagine-carosello {
+  height: 100%;
+  width: 20%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 4px 4px 14px 1px rgb(160, 157, 157);
+}
+
+.link-didascalia,
+.link-didascalia-immagine {
+  margin-left: 16px;
+  color: rgb(16, 101, 228);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.immagine-singola {
+  height: 400px;
+  width: 100%;
+}
+
+.didascalia-immagine {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.testo-didascalia-immagine {
+  margin-top: 0;
+}
+
+.link-didascalia-immagine {
+  margin-bottom: 14px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#back-to-top-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  background-color: #364658;
+  color: white;
+}
+
+#back-to-top {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#footer-container {
+  width: 100%;
+  height: 80%;
+  background-color: #222F3E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-footer {
+  width: 20%;
+}
